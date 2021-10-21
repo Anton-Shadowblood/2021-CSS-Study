@@ -51,7 +51,32 @@
         .active {
             background-color: rebeccapurple;
         }
+        #content{
+            Float:left;
+            width:75%;
+            background-color: grey;
+            padding: 15px;
+            height: 200px
+        }
+        #sidebar{
+            background-color: grey;
+            height:200px
+        }
+        .row:after{
+            content:"";
+            display: table;
+            clear: both;
+        }
+        #footer{
+            tect-align: center;
+            padding: 20px;
+            font-size: 26px
 
+        }
+        div#footer a{
+            color:black;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -72,8 +97,16 @@
 
         </ul>
     </div>
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed neque commodo, sodales turpis eu, luctus felis. Sed ac neque eu risus cursus ultricies. Morbi viverra nibh eget nibh placerat tempor. Morbi et tempus dui. Quisque suscipit tellus ut mauris pellentesque, eu bibendum mi varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus condimentum, nisi sed varius rutrum, libero magna rutrum magna, eu vestibulum dolor ex ut diam. Donec vitae velit mauris. Sed felis libero, commodo at malesuada at, bibendum nec lectus. Phasellus scelerisque tincidunt lorem eget pretium. Nullam et purus non urna ultrices auctor.
+<div id="content">
+    More stuff
+</div>
+<div id="sidebar">
+    Last of the stuff
+</div>
+    <div class="row">
+        <div id="footer">
+            Copyright 2021 | <a href="mail to:abigail.lagreca@vtsd.com">abigail.lagreca@vtsd.com</a>
+    </div>
 
 
 
