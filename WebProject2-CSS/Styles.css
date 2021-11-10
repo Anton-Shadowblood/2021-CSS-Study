@@ -45,7 +45,7 @@ li a:hover:not(.active), dropdown:hover .dropButton {
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: dimgrey;
 }
 
 #content {
@@ -67,11 +67,11 @@ li a:hover:not(.active), dropdown:hover .dropButton {
     text-align: center;
     padding: 20px;
     font-size: 25px;
-    background-color: blue;
-    color: white;
+    background-color: black;
+    color: gold;
 }
 div#footer a{
-    color: white;
+    color: gold;
     text-decoration: none;
 }
 
